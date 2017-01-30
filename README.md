@@ -16,4 +16,4 @@ Netcraft DevShots web-page **Home Work** Project for NetCraft's Academy Front En
 
 ### Project Page
 
-[geek_time](https://just2netcraft.github.io/geek_time/)
+[devshots](https://just2netcraft.github.io/devshots/)
