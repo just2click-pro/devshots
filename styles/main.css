@@ -245,56 +245,56 @@ section#lectures .titles {
 
 .lecture-container-1 > #lecture-1 {
 	position: absolute;
-	display: block;
+	opacity: 1.0;
 }
 
 .lecture-container-1 > #lecture-1-info {
-	display: none;
+	opacity: 0.0;
 }
 
 .lecture-container-1:hover > #lecture-1 {
-	display: none;
+	opacity: 0.0;
 }
 
 .lecture-container-1:hover > #lecture-1-info {
 	position: absolute;
-	display: block;
+	opacity: 1.0;
 }
 
 .lecture-container-2 > #lecture-2 {
 	position: absolute;
-	display: block;
+	opacity: 1.0;
 }
 
 .lecture-container-2 > #lecture-2-info {
-	display: none;
+	opacity: 0.0;
 }
 
 .lecture-container-2:hover > #lecture-2 {
-	display: none;
+	opacity: 0.0;
 }
 
 .lecture-container-2:hover > #lecture-2-info {
 	position: absolute;
-	display: block;
+	opacity: 1.0;
 }
 
 .lecture-container-3 > #lecture-3 {
 	position: absolute;
-	display: block;
+	opacity: 1.0;
 }
 
 .lecture-container-3 > #lecture-3-info {
-	display: none;
+	opacity: 0.0;
 }
 
 .lecture-container-3:hover > #lecture-3 {
-	display: none;
+	opacity: 0.0;
 }
 
 .lecture-container-3:hover > #lecture-3-info {
 	position: absolute;
-	display: block;
+	opacity: 1.0;
 }
 
 #lectures article {
@@ -683,9 +683,9 @@ footer .netcraft-links {
 
 /* General */
 .ease-in {
-	-webkit-transition: ease-in .2s;
-  -moz-transition: ease-in .2s;
-  transition: ease-in .2s;
+	-webkit-transition: ease-in 0.5s;
+  -moz-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
 }
 
 .clearfix:after {
