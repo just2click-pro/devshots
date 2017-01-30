@@ -13,10 +13,10 @@
 				<h1>Dev <span class="gray-text">Shots</span> <span class="logo">&lt;/&gt;</span></h1>
 			</a>
 			<ul class="clearfix">
-				<li><a href="#anchor-home" title="">הרצאות</a></li>
-				<li><a href="#anchor-subscribe" title="">הרשמה</a></li>
-				<li class="active"><a href="#anchor-directions" title="">איך מגיעים</a></li>
-				<li><a href="#anchor-info" title="">מידע נוסף</a></li>
+				<li onClick="setMenuItemActive(0)"><a href="#anchor-home">הרצאות</a></li>
+				<li onClick="setMenuItemActive(1)"><a href="#anchor-subscribe">הרשמה</a></li>
+				<li onClick="setMenuItemActive(2)" class="active"><a href="#anchor-directions">איך מגיעים</a></li>
+				<li onClick="setMenuItemActive(3)"><a href="#anchor-info">מידע נוסף</a></li>
 			</ul>
 		</nav>
 	</header><!-- /header -->
@@ -246,4 +246,20 @@
 		</div>
 	</footer>
 </body>
+	<script type="text/javascript" charset="utf-8">
+		var menuElements = document.querySelectorAll('nav ul li a');
+
+		function clearMenuItemsActive() {
+			for (var index = 0, size = menuElements.length; index < size; index++) {
+				menuElements[index].parentElement.className = '';
+			}
+		}
+
+		function setMenuItemActive (index) {
+			clearMenuItemsActive();
+			menuElements[index].parentElement.className = 'active';
+		}
+
+	</script>
 </html>
+
