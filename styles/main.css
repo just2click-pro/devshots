@@ -22,10 +22,15 @@ a, a:hover {
   pointer-events: all !important;
 }
 
+a.anchor {
+	margin-top: -80px;
+}
+
 /* Header */
 header {
 	background: #fff;
 	border-bottom: 2px solid #fff;
+	height: 117px;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -36,7 +41,7 @@ header nav {
 	color: #000;
 	height: 118px;
 	margin: 0 auto;
-	width: 60%;
+	max-width: 80vw;
 }
 
 nav a, nav a:hover {
@@ -111,8 +116,8 @@ section {
 
 .container {
 	margin: 0 auto;
-	padding: 1px;
-	width: 60%;
+	padding: 0 15px;
+	width: 80%;
 }
 
 section#lectures, section#directions {
@@ -206,9 +211,8 @@ section#lectures h2 {
 }
 
 section#lectures .titles {
-	margin: -2px auto;
+	margin: 0 auto;
 	padding-bottom: 100px;
-	width: 60%;
 }
 
 .titles > div.red-title {
@@ -547,6 +551,7 @@ section#lectures .titles {
 /* section#moreInfo */
 section#moreInfo {
 	min-height: 680px;
+	padding: 1px;
 }
 
 section#moreInfo .top-info {
@@ -562,11 +567,12 @@ section#moreInfo ul {
 }
 
 section#moreInfo ul li {
-	float: right;
+	display: inline-block;
+	float: none;
 	font-size: 14px;
 	margin: 0 30px;
 	padding: 10px 20px;
-	width: 165px;
+	width: 220px;
 }
 
 section#moreInfo ul li a {
@@ -613,7 +619,7 @@ section#moreInfo .bottom-info {
 
 section#moreInfo .bottom-info {
 	border-top: 1px solid #ccc;
-	height: 75px;
+	height: 110px;
 }
 
 section#moreInfo .bottom-info h2 {

@@ -41,15 +41,15 @@
 		</div>
 	</section>
 	<section id="lectures">
-		<div class="titles">
-			<div class="red-title">
-				הנושאים הכי עדכניים בהרצאות קצרות ומעניינות
-			</div>
-			<div class="time-title">
-				20 דקות לכל הרצאה
-			</div>
-		</div>
 		<div class="container">
+			<div class="titles">
+				<div class="red-title">
+					הנושאים הכי עדכניים בהרצאות קצרות ומעניינות
+				</div>
+				<div class="time-title">
+					20 דקות לכל הרצאה
+				</div>
+			</div>
 			<div class="lecture-container-1">
 				<article id="lecture-1" class="ease-in">
 					<img src="images/sergekrul.jpg" alt="">
@@ -245,21 +245,7 @@
 			</p>
 		</div>
 	</footer>
+	<script src="javascript/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
-	<script type="text/javascript" charset="utf-8">
-		var menuElements = document.querySelectorAll('nav ul li a');
-
-		function clearMenuItemsActive() {
-			for (var index = 0, size = menuElements.length; index < size; index++) {
-				menuElements[index].parentElement.className = '';
-			}
-		}
-
-		function setMenuItemActive (index) {
-			clearMenuItemsActive();
-			menuElements[index].parentElement.className = 'active';
-		}
-
-	</script>
 </html>
 
